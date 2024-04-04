@@ -37,20 +37,43 @@ body {
 .Quick-links ul li a:hover{
     color: white;
 }
+.About-links ul li a:hover{
+    color: white;
+}
+.Contact-links a:hover{
+    color: white;
+}
 
-.count {
+.count-left {
 
     /* border: 1px solid red; */
-    height: 50px;
-    width: 50px;
-    /* margin-left: 80%; */
+    /* height: 50px;
+    width: 50px; */
+    /* align-items: center; */
+    margin-left: 85%;
     text-align: center;
     border-radius: 9px;
     background-color: #d5fdeb;
     /* text-align: end; */
 }
 
-.count:hover {
+.count-left:hover {
+    background-color: rgb(2, 150, 2);
+}
+.count-right {
+
+    /* border: 1px solid red; */
+    /* height: 50px;
+    width: 50px; */
+    /* align-items: center; */
+    margin-right: 85%;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #d5fdeb;
+    /* text-align: end; */
+}
+
+.count-right:hover {
     background-color: rgb(2, 150, 2);
 }
 
@@ -71,7 +94,7 @@ body {
     }
 
     .app-icons img {
-        width: 150px;
+        width: 200px;
         margin: 0 10px;
     }
 }
