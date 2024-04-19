@@ -11,70 +11,120 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <meta name="og:type" content="company">
+    <meta name="og:type" content="company" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap"
+        rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="candooo.js"> -->
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="assets/logo1.webp" alt="Logo" width="60" height="40"
-                            class="d-inline-block align-text-top">
-                        CANDOOO</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" style="justify-content:end;" id="navbarNavAltMarkup">
-                        <div class="navbar-nav" style="font-size: 18px;">
-                            <a class="nav-link active" aria-current="page" href="#hero">HOME</a>
-                            <a class="nav-link active" aria-current="page" href="#feature">FEATURES</a>
-                            <a class="nav-link active" href="#footer">DOWNLOAD</a>
-                            <a class="nav-link active" href="#contact">CONTACT</a>
-                            <a class="nav-link active" href="#faqs">FAQs</a>
-                            <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <header class="web-header">
+        <nav class="navigation">
+            <img class="logo" src="assets/logo.png" alt="Website Logo">
+            <button class="menu-button" id="menuButton">Menu</button>
+            <ul class="navigation-items-container">
+                <li class="navigation-items"><a class="text-decoration-none " style="color: white;"
+                        href="#banner">Home</a></li>
+                <li class="navigation-items"><a class="text-decoration-none" style="color: white;"
+                        href="#feature">Features</a></li>
+                <li class="navigation-items"><a class="text-decoration-none " style="color: white;"
+                        href="#contact">Contact</a></li>
+                <li class="navigation-items"><a class="text-decoration-none white-text" style="color: white;"
+                        href="#faqs">FAQs</a></li>
+            </ul>
+        </nav>
     </header>
 
-
-    <!-- banner start -->
-    <section id="hero" class="p-3 p-md-5">
+    <section class="landing-section" id="banner">
         <div class="container">
-            <div class=" textCont row">
-                <div class=" col-12 col-sm-12 col-md-8 mb-4 pt-0">
-                    <h1 class="display-1">Get Expert Professional Services without any hassle</h1>
-                    <p class="h4" style="padding-right: 5%; padding-left: 1%;">Are you tired of juggling multiple apps
-                        and
-                        platforms to get things done? Look no further!
-                        Candooo is
-                        here to simplify your life and make everyday tasks a breeze.</p>
+            <div class="row">
+                <div class="content-area col-12 col-sm-12 col-md-8 mb-4 pt-0">
+                    <h1 class="landing-title">Get expert professional help <span class="highlight">without any
+                            hassle.</span>
+                    </h1>
+                    <p class="landing-description">
+                        Are you tired of the hassle that comes with finding reliable service
+                        providers? Look no further than Candooo!
+                    </p>
                     <div class="app-icons">
-                        <div>
-
-                            <a href="https://play.google.com/" target="_blank"><img src="assets/android.webp"
-                                    alt="Play Store Icon" title="Play Store Button"></a>
-                            <a href="https://www.apple.com/in/app-store/" target="_blank"><img
-                                    src="assets/iso-removebg-preview.webp" alt="App Store icon"
-                                    title="App Store Button"></a>
-                        </div>
-
+                        <a href="https://play.google.com/" target="_blank"><img src="assets/android.webp"
+                                alt="Play Store Icon" title="Play Store Button"></a>
+                        <a href="https://www.apple.com/in/app-store/" target="_blank"><img
+                                src="assets/iso-removebg-preview.webp" alt="App Store icon"
+                                title="App Store Button"></a>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-12 col-md-4 mb-4 d-flex align-items-center justify-content-center">
+                <div class=" bnrImg col-12 col-sm-12 col-md-4 mb-4 d-flex align-items-center justify-content-center">
                     <img style="width: 100%;" src="assets/appscreen.webp" alt="Candooo app Screen">
                 </div>
             </div>
         </div>
     </section>
+    <section class="success-story-section">
+        <div class="success-story">
+            <div class="stories">
+                <p class="story-text">Trusted by more than 500,000+ active users across the globe</p>
+            </div>
+            <div class="stories">
+                <div class="highlight">
+                    <p>50K</p>
+                </div>
+                <p class="story-text">User Ratings & Reviews</p>
+            </div>
+            <div class="stories">
+                <div class="highlight">
+                    <p>50K</p>
+                </div>
+                <p class="story-text">Successfull Bookings</p>
+            </div>
+            <div class="stories">
+                <div class="highlight">
+                    <p>80%</p>
+                </div>
+                <p class="story-text">Satisfied Happy Clients</p>
+            </div>
+        </div>
+    </section>
 
-    <!-- banner end  -->
+    <!-- top feature one start  -->
+    <div class="divBorder container p-1 p-md-1">
+        <div class="row" style="align-items: center;">
+            <div class="col p-5">
+                <p class="h4">User Interface</p>
+                <p>Users can access Candooo through its website or mobile app. The interface allows
+                    users to browse through different service categories, view service providers,
+                    and book appointments.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-end">
+                <img src="https://placeholder.co/300/F7F8FC" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- top feature one end  -->
+    <!-- top feature two start -->
+    <div class="divBorder container p-2 p-md-1 mt-2">
+        <div class="row" style="align-items: center;">
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="https://placeholder.co/300/F7F8FC" alt="">
+            </div>
+            <div class="col p-5">
+                <p class="h4">Service Delivery</p>
+                <p>The chosen service provider arrives at the scheduled time to deliver the
+                    requested service. They bring their own equipment and supplies, ensuring
+                    convenience for the user.</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- top feature two end  -->
 
     <!-- whoWorks start -->
 
@@ -85,42 +135,42 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-4 mb-4 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-4 mb-4 d-flex justify-content-center align-items-end">
                     <div>
-                        <div>
+                        <div class="divBorder-features">
 
-                            <p class="count-left h2">1</p>
+                            <div class="svgs">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>account-wrench</title>
+                                    <path
+                                        d="M22.9 21.2L18.8 17.1C19.2 16.1 19 14.8 18.1 14C17.2 13.1 15.9 12.9 14.8 13.4L16.7 15.3L15.3 16.7L13.3 14.7C12.8 15.8 13 17.1 13.9 18.1C14.8 19 16 19.2 17 18.8L21.1 22.9C21.3 23.1 21.6 23.1 21.7 22.9L22.7 21.9C23 21.6 23 21.3 22.9 21.2M13 20H2V18C2 15.8 5.6 14 10 14C10.5 14 11 14 11.4 14.1C11.1 14.7 11 15.3 11 16C11 17.6 11.8 19.1 13 20M10 4C7.8 4 6 5.8 6 8S7.8 12 10 12 14 10.2 14 8 12.2 4 10 4" />
+                                </svg>
+                            </div>
 
-                            <div>
-                                <p class="text-end h4">Service Categories</p>
+                            <div class="story-text">
+                                <p class="h4">Service Categories</p>
                                 <p>Candooo offers a wide range of services across categories such as Professional home
-                                    cleaning,
-                                    beauty treatments, appliance repair, plumbing, electrical services, carpentry,
-                                    fitness, wellness, and more.</p>
+                                    cleaning, beauty treatments, appliance repair, plumbing, electrical services,
+                                    carpentry, fitness, wellness, and more.</p>
                             </div>
                         </div>
-                        <div>
+
+                        <div class="divBorder-features">
                             <div>
-
-                                <p class="count-left h2">2</p>
-
-                                <div>
-                                    <p class="text-end h4">User Interface</p>
-                                    <p>Users can access Candooo through its website or mobile app. The interface allows
-                                        users to browse through different service categories, view service providers,
-                                        and book appointments.</p>
+                                <div class="svgs">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>calendar-check-outline</title>
+                                        <path
+                                            d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V9H19V19M5 7V5H19V7H5M10.56 17.46L16.5 11.53L15.43 10.47L10.56 15.34L8.45 13.23L7.39 14.29L10.56 17.46Z" />
+                                    </svg>
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-
-                                <p class="count-left h2">3</p>
+                                <!-- <p class="count-left h2">2</p> -->
 
                                 <div>
-                                    <p class="text-end h4">Booking</p>
-                                    <p>Users select the service they require and provide details such as location,
-                                        preferred time, and any specific requirements.</p>
+                                    <p class="h4">Booking</p>
+                                    <p>Users select their service and provide details like location and timing, aiding
+                                        in matching them with suitable providers. Candooo customizes service requests,
+                                        streamlining the process for a tailored experience.</p>
                                 </div>
                             </div>
                         </div>
@@ -129,36 +179,41 @@
                 <div class="col-12 col-sm-12 col-md-4 mb-4">
                     <img style="width: 100%;" src="assets/appscreen.webp" alt=" candooo app screen">
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 mb-4 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-4 mb-4 d-flex justify-content-center align-items-end">
                     <div>
-                        <p class="count-right h2">4</p>
-                        <div>
-                            <p class="h4">Matching</p>
-                            <p>Once the booking request is submitted, Candooo Company's platform matches the user with
-                                suitable service providers based on factors like location, availability, and expertise.
-                            </p>
-                        </div>
-                        <div>
-                            <div>
-                                <p class="count-right h2">5</p>
-                                <div>
-                                    <p class="h4">Service Delivery</p>
-                                    <p>The chosen service provider arrives at the scheduled time to deliver the
-                                        requested service. They bring their own equipment and supplies, ensuring
-                                        convenience for the user.</p>
-                                </div>
+                        <div class="divBorder-features">
+                            <div class="svgs">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>compare-vertical</title>
+                                    <path d="M14 15V22H16V15H19L15 11L11 15H14M13 9H10V2H8V9H5L9 13L13 9Z" />
+                                </svg>
 
                             </div>
-                        </div>
-                        <div>
                             <div>
-                                <p class="count-right h2">6</p>
+                                <p class="h4">Matching</p>
+                                <p>Once the booking request is submitted, Candooo Company's platform matches the user
+                                    with
+                                    suitable service providers based on factors like location, availability, and
+                                    expertise.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="divBorder-features">
+                            <div>
                                 <div>
+                                    <div class="svgs">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <title>star-face</title>
+                                            <path
+                                                d="M12,2.5L8.42,8.06L2,9.74L6.2,14.88L5.82,21.5L12,19.09L18.18,21.5L17.8,14.88L22,9.74L15.58,8.06L12,2.5M9.38,10.5C10,10.5 10.5,11 10.5,11.63A1.12,1.12 0 0,1 9.38,12.75C8.75,12.75 8.25,12.25 8.25,11.63C8.25,11 8.75,10.5 9.38,10.5M14.63,10.5C15.25,10.5 15.75,11 15.75,11.63A1.12,1.12 0 0,1 14.63,12.75C14,12.75 13.5,12.25 13.5,11.63C13.5,11 14,10.5 14.63,10.5M9,15H15C14.5,16.21 13.31,17 12,17C10.69,17 9.5,16.21 9,15Z" />
+                                        </svg>
+                                    </div>
                                     <p class="h4">Quality Assurance</p>
-                                    <p>Candooo maintains quality standards by vetting service providers through
-                                        background checks, skill assessments, and customer reviews. Users can rate and
-                                        review service providers after the completion of the service, which helps
-                                        maintain transparency and accountability.</p>
+                                    <p>Candooo assures quality by screening providers through checks, skill assessments,
+                                        and user feedback. Users review providers post-service, promoting transparency
+                                        and informed choices. This process upholds quality standards, aiding users in
+                                        making informed decisions.</p>
                                 </div>
 
                             </div>
@@ -238,6 +293,8 @@
             </div>
         </div>
     </section>
+
+
 
 
 
@@ -471,31 +528,42 @@
                             professionals. Customers use our platform to book services such as beauty treatments,
                             haircuts, massage therapy, cleaning, plumbing, carpentry, appliance repair, painting, etc.
                         </p>
-                        <a href=""><button type="button" class="btn btn-success">Download App</button></a>
+                        <!-- <a href=""><button type="button" class="btn btn-success">Download App</button></a> -->
+                        <div class="app-icon">
+                            <div>
+
+                                <a href="https://play.google.com/" target="_blank"><img src="assets/android.webp"
+                                        alt="Play Store Icon" title="Play Store Button"></a>
+                                <a href="https://www.apple.com/in/app-store/" target="_blank"><img
+                                        src="assets/iso-removebg-preview.webp" alt="App Store icon"
+                                        title="App Store Button"></a>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="Quick-links col-6 col-sm-6 col-md-2">
                         <p class="h3">Quick Links</p>
                         <ul class="list-unstyled">
                             <li>
-                                <a class="text-decoration-none text-offwhite" href="#hero">HOME</a>
+                                <a class="text-decoration-none text-offwhite " href="#hero">Home</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none text-offwhite" href="#feature">FEATURES</a>
+                                <a class="text-decoration-none text-offwhite" href="#feature">Features</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none text-offwhite" href="#footer">DOWNLOAD</a>
+                                <a class="text-decoration-none text-offwhite" href="#footer">Download</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none text-offwhite" href="#contact">CONTACT</a>
+                                <a class="text-decoration-none text-offwhite" href="#contact">Contact</a>
                             </li>
                             <li>
                                 <a class="text-decoration-none text-offwhite" href="#faqs">FAQs</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none text-offwhite text-uppercase" href="">Privacy Policy</a>
+                                <a class="text-decoration-none text-offwhite" href="">Privacy Policy</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none text-offwhite text-uppercase" href="">Terms and
+                                <a class="text-decoration-none text-offwhite" href="">Terms and
                                     Conditions</a>
                             </li>
 
@@ -526,8 +594,7 @@
             </section>
             <section class="footer-bottom-section py-2 ">
                 <p class="text-center mb-0 text-uppercase text-offwhite">
-                    &copy; 2024 copyright -
-                    <strong class="text-capitalize text-white">candooo</strong>
+                    <strong class="text-capitalize text-white">powered by xlayer technologies</strong> &copy; 2024
                 </p>
             </section>
         </div>
@@ -535,6 +602,8 @@
     <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="candooo.js"></script>
+
 
 </body>
 
