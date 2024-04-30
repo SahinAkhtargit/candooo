@@ -332,7 +332,7 @@ body {
 }
 
 .divBorder-features {
-  border: 0.2px solid gray;
+  border: 1px solid rgba(0, 0, 0, 0.2); 
   border-radius: 2rem;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
   padding: 2rem;
@@ -351,6 +351,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 
   }
 }
@@ -362,6 +363,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
     svg{
       width: 3rem;
       fill: #016939;
