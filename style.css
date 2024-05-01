@@ -89,7 +89,7 @@ footer .footer-bottom-section {
 @media (width < 30em) {
   .web-header {
     /* border: 1px solid red; */
-    min-width: 70%;
+    min-width: 50%;
     overflow: hidden;
     height: 90px;
     border-radius: 5rem;
@@ -448,10 +448,12 @@ body {
 }
 
 .Top-featureImg-right{
-  padding-right: 2.3rem;
+  /* padding-right: 2.3rem; */
+  width: fit-content;
   /* border: 1px solid red; */
 }
 .Top-featureImg-left{
-  padding-left: 1.5rem;
-  /* border: 1px solid red; */
+  /* padding-left: 1.5rem; */
+  width: fit-content;
+  border: 1px solid red;
 }
