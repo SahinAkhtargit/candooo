@@ -389,11 +389,6 @@ body {
   }
 }
 
-.app-icon img {
-  width: 150px;
-  /* margin: 0 10px; */
-}
-
 .collapse a:hover {
   /* background-color: #ebfdf2; */
   color: black;
@@ -435,25 +430,3 @@ body {
     }
   }
 }
-
-.app-icon div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  /* Adjust the gap between the images */
-}
-
-.app-icon img {
-  width: 200px;
-}
-/*
-.Top-featureImg-right{
-  padding-right: 2.3rem;
-  width: fit-content;
-  border: 1px solid red;
-}
-.Top-featureImg-left{
-  padding-left: 1.5rem;
-  width: fit-content;
-  border: 1px solid red;
-}*/
